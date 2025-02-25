@@ -1,0 +1,22 @@
+From: "Marko Seidenglanz" <marko.seidenglanz@modima.de>
+To: submit@bugs.debian.org
+Subject: ITP: dbsync2 -- TODO
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Debbugs-CC: debian-devel@lists.debian.org, debian-go@lists.debian.org
+
+Package: wnpp
+Severity: wishlist
+Owner: Marko Seidenglanz <marko.seidenglanz@modima.de>
+
+* Package name    : dbsync2
+  Version         : 1.5.4-1
+  Upstream Author : TODO
+* URL             : TODO
+* License         : TODO
+  Programming Lang: Go
+  Description     : TODO
+
+ TODO: long description
+
+TODO: perhaps reasoning

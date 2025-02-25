@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 30 Apr 2021 15:17:31 +0200
+Source: dbsync2
+Architecture: source
+Version: 1.5.4
+Distribution: hirsute
+Urgency: medium
+Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+Changed-By: Marko Seidenglanz <marko.seidenglanz@gmail.com>
+Changes:
+ dbsync2 (1.5.4) hirsute; urgency=medium
+ .
+   * column count limited to the first 150 fields of the campaign
+Checksums-Sha1:
+ 5545a12f8e762c81bf0cb94409d981b8b843e2c4 1935 dbsync2_1.5.4.dsc
+ fadd03f86ed5bcf7c0bb83d99755961b75089a35 144232 dbsync2_1.5.4.orig.tar.xz
+ d4d03f15318a1de54e68b1b9b0b490797c95f4c5 1740 dbsync2_1.5.4.debian.tar.xz
+ 75d5cb5e6ac7dc5a201b0ec1311299f45f180314 15958 dbsync2_1.5.4_source.buildinfo
+Checksums-Sha256:
+ 94f127244333f03b201ad365b8639e239206a969d6fef1cf86e05989ff473f44 1935 dbsync2_1.5.4.dsc
+ 52a96b2a21cfe27dfb2771d1999f882882aec200de1a4b52dfe4a6fd045b9a6b 144232 dbsync2_1.5.4.orig.tar.xz
+ 72b5016595674faf1a3d70498f776059cd5ab23af5d4f247b9d74791c0d9f54f 1740 dbsync2_1.5.4.debian.tar.xz
+ 50229211d6eb333d38390808a1a2fce0ca3b1728a80259dca9222eaa00faeed5 15958 dbsync2_1.5.4_source.buildinfo
+Files:
+ 114d18354b83bb7a7b88c619eec0b6c5 1935 devel optional dbsync2_1.5.4.dsc
+ 9dd1dca13402f4ce3ace72147d8f0621 144232 devel optional dbsync2_1.5.4.orig.tar.xz
+ f2a6e77a22be3a8e7b6aea702da30180 1740 devel optional dbsync2_1.5.4.debian.tar.xz
+ 72bc71ba5497518412bc16fa1398e1e8 15958 devel optional dbsync2_1.5.4_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHQBAEBCgA6FiEE826RccNOctsRHT1CqiWJuPWoo9gFAmCPmWQcHG1hcmtvLnNl
+aWRlbmdsYW56QGdtYWlsLmNvbQAKCRCqJYm49aij2EkmDACnYM5KfSskUhf9P1TF
+bjlRi5EuLWhG2Hvp5jtjzf126CRby0RfctihPbbrnn1XEV4NTPerK8qT7WqYRfIR
+MpDoNPKVhq56AdIloWbXP/zj6UFCPwjh3W6bjPM7pHT3ziSr4hECYTwoYrAWkBJu
+xKzwBhjCgmYsvzpOXK4vExSiCkN0barZYr/KE9ldDdvS2GPUN2r0+O94HFNwEM+0
+9TRX6ISxT1RSZvBOt+0CybMqtCIHoWMj0xZm5736okFWdsvZHjQw4MU0tIPbDtpb
+jLXCS23pJqeeKQ18O4fPDUiBOJf6sseQzea2giQZnf8X091RPklzZdkFN6dqEdJJ
+xzAApgeIS6bm6KLNDfvx2c7eCF59EK6DgusmOUuRBcagIIZMw8TCsYP8LWeWLSo/
+E00fty6Dr/F62V6bGnUmCaxLVMmtR+p7YrDYW4BgH0d/fCo3cCJBzbAJMvg9pMcg
+6lbUp5OkKWlZWr94xK58gkzQ5qnX/kO7q5qSO2akvwwhklA=
+=9Dqt
+-----END PGP SIGNATURE-----

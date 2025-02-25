@@ -1,0 +1,5 @@
+dbsync2 (1.5.4) hirsute; urgency=medium
+
+  * column count limited to the first 150 fields of the campaign
+
+ -- Marko Seidenglanz <marko.seidenglanz@gmail.com>  Fri, 30 Apr 2021 15:17:31 +0200
