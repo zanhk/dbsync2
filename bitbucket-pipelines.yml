@@ -1,0 +1,15 @@
+image: atlassian/default-image:3
+
+pipelines:
+  branches:
+    main:  # or master, depending on your default branch
+      - step:
+          name: Build and Push Docker Image
+          services:
+            - docker
+          script:
+            - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+            - docker build -t $DOCKER_USERNAME/dbsync2:latest .
+            - docker push $DOCKER_USERNAME/dbsync2:latest
+          caches:
+            - docker

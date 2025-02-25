@@ -31,7 +31,7 @@ func (con *DBConnection) CreateIndexPostgres(tableName string, columns []string,
 		indexName += col
 	}
 
-	b.WriteString("CREATE INDEX \"" + indexName + "\" ON " + tableName + "(")
+	b.WriteString("CREATE INDEX IF NOT EXISTS \"" + indexName + "\" ON " + tableName + "(")
 	for i, col := range columns {
 		if i > 0 {
 			b.WriteString(",")
